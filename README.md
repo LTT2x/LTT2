@@ -1,26 +1,11 @@
-Games
-=====
+LTT2
+====
 
-The scripts, rulesets, configuration files and freeciv-server binaries
-used for running longturn.org games.
+The Freeciv21 LongTurn Traditional v2.0 ruleset and other scripts needed to run
+a server with this ruleset.
 
 How To Start A Game
 ===================
-### Test Game
-    set autosaves GAMEOVER
-    set unitwaittime 0
-    set timeout 120
-    autocreate players
-    start
 
-### Real Game
-    touch input
-    tail -F input | sh LT37.sh
-    # tail -F input | sh LT37.sh autosave-07.04.2017-13:38:46.sav
+See [Freeciv21 Docker Manual](https://longturn.readthedocs.io/en/latest/Manuals/Advanced/docker.html)
 
-    echo '/autocreate players' >> input
-    echo '/start' >> input
-    echo '/syncturn 3' >> input
-
-    mkdir -p save/autosave
-    sh autosave.sh
