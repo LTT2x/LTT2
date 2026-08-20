@@ -1,7 +1,9 @@
 set aifill 2
-aitoggle AI*1
-aitoggle AI*2
-playernation AI*1 Nationame 1 Playername
-playernation AI*2 Nationame2 1 Playername2
 
+aitoggle AI*1
+playernation AI*1 Yugoslav 1 Corbeau
+playercolor Corbeau 013893
+
+aitoggle AI*2
+playernation AI*2 Cornish 1 el_perdedor
 
