@@ -102,14 +102,14 @@ set ec_info enabled
 set ec_max_size 5000
 set ec_turns 9
 set saveturns 1
-set timeout 90000
-set unitwaittime 36000
+set timeout 0
+set unitwaittime 0
 set fixedlength disabled
 set savefrequency "15"
 set savename "freeciv"
 set kicktime "1800"
-set first_timeout "-1"
-set scorefile "freeciv-score.log"
+set first_timeout 0
+set scorefile "freeciv21-score.log"
 set scorelog "ENABLED"
 set scoreloglevel "ALL"
 
@@ -138,7 +138,7 @@ set nuclearwinter "ENABLED"
 set phasemode "ALL"
 set pingtime "20"
 set pingtimeout "60"
-set plrcolormode "PLR_ORDER"
+set plrcolormode "PLR_SET"
 set threaded_save "DISABLED"
 set traitdistribution "FIXED"
 set turnblock "ENABLED"
