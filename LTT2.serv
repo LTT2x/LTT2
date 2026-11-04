@@ -6,32 +6,32 @@ set unitwaittime_style ACTIVITIES
 
 # map
 set mapsize "PLAYER"
-set gameseed "0"
-set generator "FAIR"
-set barbarians disabled
-set startpos "SINGLE"
-set huts 0
-set landmass 35
-set specials 300
+set tilesperplayer 300
+set generator "FRACTAL"
+set topology "WRAPX|WRAPY|ISO|HEX"
+set startpos "ALL"
+set landmass 75
 set steepness 50
 set temperature 70
-set tilesperplayer 300
-set topology "WRAPX|WRAPY|ISO|HEX"
 set wetness 30
 set alltemperate enabled
 set tinyisles disabled
-set animals "0"
-set mapseed 0
 set separatepoles "ENABLED"
-set shieldbox "100"
-set foodbox "100"
-set sciencebox 100
 set singlepole "DISABLED"
+set specials 300
+set huts 0
+set barbarians disabled
+set animals "0"
+set gameseed "0"
+set mapseed 0
 set startcity "DISABLED"
 set revealmap START
 set fogofwar "ENABLED"
 
 # general rules
+set shieldbox "100"
+set foodbox "100"
+set sciencebox 100
 set citymindist 1
 set contactturns 1
 set disasters "10"
@@ -48,8 +48,9 @@ set techlevel "0"
 set trading_tech disabled
 set airliftingstyle "FROM_ALLIES|TO_ALLIES|DEST_UNLIMITED"
 set razechance 10
-set globalwarming "ENABLED"
+set globalwarming "DISABLED"
 set globalwarming_percent 300
+set nuclearwinter "DISABLED"
 set nuclearwinter_percent 100
 set unreachableprotects "DISABLED"
 set happyborders "NATIONAL"
@@ -134,7 +135,6 @@ set naturalcitynames "ENABLED"
 set citynames "PLAYER_UNIQUE"
 set netwait "4"
 set notradesize "0"
-set nuclearwinter "ENABLED"
 set phasemode "ALL"
 set pingtime "20"
 set pingtimeout "60"
@@ -144,14 +144,8 @@ set traitdistribution "FIXED"
 set turnblock "ENABLED"
 set homecaughtunits "ENABLED"
 
-metamessage "Longturn Traditional for multiplayer games | More info: https://longturn.net"
-metapatches longturn
-
 # Players
 set nationset all
 read players.serv
-
-start
-
 hard
-metapatches 
+

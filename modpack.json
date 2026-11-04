@@ -1,10 +1,10 @@
 {
   "info": {
     "options": "+modpack-1.0",
-    "base_url": "https://raw.githubusercontent.com/LTT2x/LTT2/Duel002",
-    "name": "Duel002",
+    "base_url": "https://raw.githubusercontent.com/LTT2x/LTT2/Duel003",
+    "name": "Duel003",
     "type": "Ruleset",
-    "version": "2026-08-20_1"
+    "version": "2026-10-25_1"
   },
   "files": [
     { "url": "LTT2_local.serv", "dest": "LTT2.serv" },

@@ -336,3 +336,4 @@ function place_map_labels()
 end
 
 signal.connect("map_generated", "place_map_labels")
+
